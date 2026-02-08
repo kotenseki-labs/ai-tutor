@@ -1,6 +1,3 @@
-Replace COURSE_TOPIC_AND_SCOPE with your course title before copy/pasting into Gemini Gem as system prompt
-
-
 <!ENTITY field "{{COURSE_TOPIC_AND_SCOPE}}">
 <!ENTITY morsel "fundamental unit of knowledge in &field (e.g., formula, vocabulary definition, grammatical rule)">
 
