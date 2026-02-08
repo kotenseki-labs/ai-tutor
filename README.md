@@ -18,10 +18,10 @@ A System Prompt for College-Level Instruction
 
 ## 📂 Repository Structure
 
-* `system_prompt.xml` - **The Core File.** Copy the contents of this file into your AI instructions.
+* `system_prompt.xml` - **This is the core file**: Copy the contents of this file into your customized AI instructions box (e.g. your Gemini Gem).
 * `examples/` - Sample tutors for different fields.
 
-## 🚀 How to Use (Gemini Gems)
+## ♊ How to Use (Gemini Gems)
 
 You do not need to install Python or run any code. Follow these steps to create your own tutor:
 
@@ -34,7 +34,7 @@ You do not need to install Python or run any code. Follow these steps to create 
     * Replace COURSE_TOPIC_AND_SCOPE at the top of the prompt with your course title or field.
 6.  **Save & Chat:** Click "Create". Your tutor is now ready to use for you and your students!
 
-## 🧠 Customizing the Tutor
+## 🛃 Customizing the Tutor
 
 The prompt is written in natural language wrapped in XML tags. You can modify the behavior by editing the text before you paste it. For example:
 
@@ -45,7 +45,7 @@ The prompt is written in natural language wrapped in XML tags. You can modify th
     * You can add instructions like "Be strict but encouraging"
     * You can change the interaction language to Spanish.
 
-## How to Contribute
+## 🛠️ How to Contribute
 
 We use GitHub to version-control the system prompt of BungoBot. Here is how you can help:
 
@@ -58,7 +58,7 @@ We use GitHub to version-control the system prompt of BungoBot. Here is how you 
     * **Example Output:** (Optional) A screenshot or text snippet of the tutor's response using the new system prompt.
 
 
-## Project Rationale
+## 🧠 Project Rationale
 
 The promise of AI to save effort can often backfire. Advertisements for tools like Anthropic's Claude invite users to *"Do five things while you focus on one,"* suggesting we can bypass the messy, confusing experience of completing homework and preparing course materials for class by delegating it to an LLM. However, a liberal arts education advocates for the opposite: it challenges us to read/study more slowly and write/solve more deliberately. 
 
@@ -68,7 +68,7 @@ This project proposes a tutor designed to augment, not replace, the instructor. 
 
 Consequently, the tutor discussed here is designed for students enrolled in formal courses; it isn't intended for self-taught learners or as a replacement for human instruction.
 
-## Context of Use and Need
+## 💦 Context of Use and Need
 
 A tutor built on top of an LLM can address the primary barrier to entry for students: the steep learning curve of independent analysis. 
 
@@ -80,11 +80,11 @@ Generic LLMs do not come ready out-of-the-box for pedagogic applications. They a
 
 The system prompt we propose is designed to compel the model to abandon its common function of providing direct answers.
 
-## Prompt Engineering Architecture
+## 🏠 Prompt Engineering Architecture
 
 To ensure the tutor behaves consistently, we use a system prompt written in natural language and organized with XML tags. This modular approach allows for easy adaptation ("forking") to other subjects.
 
-## Design Strategy
+## ✏️ Design Strategy
 
 Building a tutor that guides students through active analysis can be achieved in different ways. Retraining with high-quality task-specific data (supervised fine-tuning) or expanding its knowledge base (RAG) is expensive and requires expertise in machine learning.
 
